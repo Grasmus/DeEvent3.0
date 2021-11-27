@@ -2039,7 +2039,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editText
+id edMessage
 id edit_query
 id elastic
 id end
@@ -2201,7 +2201,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
-id readMessage
+id rcView
 id rectangles
 id reverseSawtooth
 id right
@@ -2328,6 +2328,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userName
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2500,6 +2501,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout user_list_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

@@ -2038,7 +2038,7 @@ int id easeIn 0x7f0800ab
 int id easeInOut 0x7f0800ac
 int id easeOut 0x7f0800ad
 int id east 0x7f0800ae
-int id editText 0x7f0801e3
+int id edMessage 0x7f0800af
 int id edit_query 0x7f0800b1
 int id elastic 0x7f0800b2
 int id end 0x7f0800b3
@@ -2200,7 +2200,7 @@ int id progress_circular 0x7f08014e
 int id progress_horizontal 0x7f08014f
 int id radio 0x7f080150
 int id ratio 0x7f080151
-int id readMessage 0x7f0801e4
+int id rcView 0x7f0801e5
 int id rectangles 0x7f080152
 int id reverseSawtooth 0x7f080153
 int id right 0x7f080154
@@ -2327,6 +2327,7 @@ int id uniform 0x7f0801cc
 int id unlabeled 0x7f0801cd
 int id up 0x7f0801ce
 int id useLogo 0x7f0801cf
+int id userName 0x7f0801e6
 int id vertical_only 0x7f0801d0
 int id view_offset_helper 0x7f0801d1
 int id view_transition 0x7f0801d2
@@ -2499,6 +2500,7 @@ int layout text_view_with_line_height_from_layout 0x7f0b006e
 int layout text_view_with_line_height_from_style 0x7f0b006f
 int layout text_view_with_theme_line_height 0x7f0b0070
 int layout text_view_without_line_height 0x7f0b0071
+int layout user_list_item 0x7f0b0072
 int mipmap ic_launcher 0x7f0c0000
 int mipmap ic_launcher_round 0x7f0c0001
 int plurals mtrl_badge_content_description 0x7f0d0000

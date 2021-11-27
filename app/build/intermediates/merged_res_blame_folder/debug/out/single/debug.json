@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Voitsehovskuy-PC\\AndroidStudioProjects\\DeEvent3.0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Voitsehovskuy-PC\\AndroidStudioProjects\\DeEvent3.0\\app\\build\\intermediates\\merged_res\\debug\\layout_user_list_item.xml.flat",
+        "source": "C:\\Users\\Voitsehovskuy-PC\\AndroidStudioProjects\\DeEvent3.0\\app\\src\\main\\res\\layout\\user_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Voitsehovskuy-PC\\AndroidStudioProjects\\DeEvent3.0\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Voitsehovskuy-PC\\AndroidStudioProjects\\DeEvent3.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },

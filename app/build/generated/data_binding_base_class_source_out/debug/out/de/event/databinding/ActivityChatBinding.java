@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import de.event.R;
@@ -28,18 +28,18 @@ public final class ActivityChatBinding implements ViewBinding {
   public final ConstraintLayout bsend;
 
   @NonNull
-  public final EditText editText;
+  public final EditText edMessage;
 
   @NonNull
-  public final TextView readMessage;
+  public final RecyclerView rcView;
 
   private ActivityChatBinding(@NonNull ConstraintLayout rootView, @NonNull Button bSend,
-      @NonNull ConstraintLayout bsend, @NonNull EditText editText, @NonNull TextView readMessage) {
+      @NonNull ConstraintLayout bsend, @NonNull EditText edMessage, @NonNull RecyclerView rcView) {
     this.rootView = rootView;
     this.bSend = bSend;
     this.bsend = bsend;
-    this.editText = editText;
-    this.readMessage = readMessage;
+    this.edMessage = edMessage;
+    this.rcView = rcView;
   }
 
   @Override
@@ -77,20 +77,19 @@ public final class ActivityChatBinding implements ViewBinding {
 
       ConstraintLayout bsend = (ConstraintLayout) rootView;
 
-      id = R.id.editText;
-      EditText editText = ViewBindings.findChildViewById(rootView, id);
-      if (editText == null) {
+      id = R.id.edMessage;
+      EditText edMessage = ViewBindings.findChildViewById(rootView, id);
+      if (edMessage == null) {
         break missingId;
       }
 
-      id = R.id.readMessage;
-      TextView readMessage = ViewBindings.findChildViewById(rootView, id);
-      if (readMessage == null) {
+      id = R.id.rcView;
+      RecyclerView rcView = ViewBindings.findChildViewById(rootView, id);
+      if (rcView == null) {
         break missingId;
       }
 
-      return new ActivityChatBinding((ConstraintLayout) rootView, bSend, bsend, editText,
-          readMessage);
+      return new ActivityChatBinding((ConstraintLayout) rootView, bSend, bsend, edMessage, rcView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
