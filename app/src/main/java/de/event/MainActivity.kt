@@ -4,12 +4,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import android.content.Intent
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
+
         sign_in.setOnClickListener()
         {
             val db = DBHelper(this, null)
@@ -29,7 +36,25 @@ class MainActivity : AppCompatActivity() {
             // at last, clearing edit texts
             login.text.clear()
             password.text.clear()
+
+            sign_in.setOnClickListener{
+                val intent = Intent(this, ChatActivity::class.java)
+                startActivity(intent)
+               /* val database = FirebaseDatabase.getInstance()
+                val myRef = database.getReference("message")
+
+                myRef.setValue("Hello, World!")
+                */
+
+                /* val database = Firebase.database
+                val myRef = database.getRefernce("message")
+                myRef.setValue("Hello, World!") */
+
+            }
         }
+
+
+
         /*sign_up.setOnClickListener{
 
             // creating a DBHelper class

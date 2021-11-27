@@ -1,2 +1,6 @@
+de/event/databinding/ActivityChatBinding.java
+ de.event.databinding.ActivityChatBinding
+de/event/databinding/ActivityMainBinding.java
+ de.event.databinding.ActivityMainBinding
 de/event/BuildConfig.java
  de.event.BuildConfig
