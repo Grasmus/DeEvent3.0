@@ -1,0 +1,2 @@
+de/event/BuildConfig.java
+ de.event.BuildConfig

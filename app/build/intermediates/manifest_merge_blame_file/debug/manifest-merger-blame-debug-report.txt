@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.event"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\DeEvent30\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\DeEvent30\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\DeEvent30\app\src\main\AndroidManifest.xml:4:5-79
+11-->D:\DeEvent30\app\src\main\AndroidManifest.xml:4:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\DeEvent30\app\src\main\AndroidManifest.xml:5:5-80
+12-->D:\DeEvent30\app\src\main\AndroidManifest.xml:5:22-78
+13
+14    <application
+14-->D:\DeEvent30\app\src\main\AndroidManifest.xml:7:5-23:19
+15        android:allowBackup="true"
+15-->D:\DeEvent30\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] C:\Users\oppai\.gradle\caches\transforms-3\809ddce9e66ca99403b9a3e2d0b9af39\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\DeEvent30\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->D:\DeEvent30\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\DeEvent30\app\src\main\AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->D:\DeEvent30\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.DeEvent30" >
+23-->D:\DeEvent30\app\src\main\AndroidManifest.xml:13:9-47
+24        <activity
+24-->D:\DeEvent30\app\src\main\AndroidManifest.xml:14:9-22:20
+25            android:name="de.event.MainActivity"
+25-->D:\DeEvent30\app\src\main\AndroidManifest.xml:15:13-41
+26            android:exported="true" >
+26-->D:\DeEvent30\app\src\main\AndroidManifest.xml:16:13-36
+27            <intent-filter>
+27-->D:\DeEvent30\app\src\main\AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\DeEvent30\app\src\main\AndroidManifest.xml:18:17-69
+28-->D:\DeEvent30\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\DeEvent30\app\src\main\AndroidManifest.xml:20:17-77
+30-->D:\DeEvent30\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
